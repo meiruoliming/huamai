@@ -1,0 +1,17 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,section, article, aside, header, footer, nav,dialog, figure,menu{ margin:0; padding:0; border:0;  font-family: "Helvetica Neue", Helvetica, Arial,"PingFang SC", "Microsoft Yahei", "Wenquanyi Micro Hei", sans-serif; }
+html{ -webkit-text-size-adjust:none;}
+body{ font-size:14px; line-height:24px;/* -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased;  font-smoothing: antialiased;*/ color:#333;}
+textarea,button{ resize:none;   -webkit-appearance: none;  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Microsoft Yahei", "Wenquanyi Micro Hei", sans-serif;}
+/*img{ border:none; vertical-align:top; width:100%; }*/
+ul li{ list-style:none;float:left;padding:0;}
+a{ text-decoration:none;transition:color 0.3s ease-in;color:black;}
+a:hover{outline:none;text-decoration-line:none;}
+a:active{outline:none; text-decoration-line:none;}
+a:focus{outline:none;}
+h1,h2{ font-weight:300;}
+textarea,button{ outline:none; -webkit-appearance: none;-o-appearance: none;-ms-appearance: none;-moz-appearance: none;}
+ul{margin-bottom:0;}
+html{font-size:100%;}
+
+
+

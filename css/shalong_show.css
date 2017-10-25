@@ -1,0 +1,5 @@
+/*к╫сп╣д*/
+.crame{width:30px;height:20px;background:rgba(21,162,236,0.58);position:absolute;top:0;left:0;bottom:0;right:0;
+    margin:auto;z-index:1000;}
+.sanjiao{width: 0;height: 0;border-top:5px solid transparent;border-left: 10px solid black;
+    border-bottom:5px solid transparent;margin:auto;position:absolute;top:0;left:0;bottom:0;right:0;  }

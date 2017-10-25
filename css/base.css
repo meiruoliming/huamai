@@ -1,0 +1,89 @@
+/*导航栏*/
+.nav>li>a{font-size:15px;}
+.nav>li:hover{background:#ccc;}
+.navbtn{width:100%;position:fixed;top:0;left:0;z-index:100;background:white;}
+@media screen and (min-width:990px){.nav>li{margin-left:22px;}}
+/*@media screen and (min-width:768px) and (max-width:1024px){.navbn li{float:none;}}*/
+@media screen and (min-width:768px){.navbn{float:right;}}
+@media screen and (max-width:767px){.navbn>li{float:none;border-bottom:1px solid #ccc;}}
+@media screen and (max-width:767px){.navbn>li:active{background:#ccc;}}
+@media screen and (max-width:767px){.navbn li{float:none;}}
+@media screen and (max-width:767px){.manimg{display:none;}}
+.banner{margin-top:50px;}
+/*结尾*/
+.footer{background:#1D487D;color:white;}
+.footer_main{width:80%;margin:2% auto;overflow:hidden;}
+.footer_left,.footer_right{display:inline-block;width:50%;margin:0 auto;}
+.footer_left{float:left;margin-right:-10%;}
+.footer_left>img{float:right;margin-right:24%;margin-top:20px;}
+.footer_right{float:left;text-align:left;}
+.footer_right ul{overflow:hidden;}
+.footer_right ul li{width:18%;float:left;list-style:none;}
+.footer_right ul li a{color:white;border-right:1px solid white;padding:0 10px;}
+.footer_right ul li>.firsta{padding-left:0;}
+.footer_right ul li>.lasta{border-right:none;}
+@media screen and (max-width:1200px){.footer_right ul li{width:22%;}}
+@media screen and (max-width:900px){.footer_right ul li{width:25%;}}
+@media screen and (max-width:820px){.footer_left>img{margin:0 auto;float:none;}}
+@media screen and (max-width:820px){.footer_main{text-align:center;}}
+@media screen and (max-width:820px){.footer_left{float:none;width:92%;margin:0 auto 10px;}}
+@media screen and (max-width:820px){.footer_right{width:100%;}}
+@media screen and (max-width:820px){.footer_right>ul{margin-left:23%;text-align:center;}}
+@media screen and (max-width:820px){.footer_right>ul li{width:18%;text-align:center;}}
+@media screen and (max-width:820px){.footer_right{width:100%;float:none;text-align:center;}}
+@media screen and (max-width:740px){.footer_right>ul li{width:19%;}
+@media screen and (max-width:671px){.footer_right>ul li{width:21%;}
+@media screen and (max-width:671px){.footer_right>ul{margin-left:21%;}}
+@media screen and (max-width:621px){.footer_right>ul li{width:23%;}
+@media screen and (max-width:621px){.footer_right>ul{margin-left:14%;}}
+@media screen and (max-width:540px){.footer_right ul li{width:25%;}}
+@media screen and (max-width:490px){.footer_main{width:100%;}}
+@media screen and (max-width:490px){.footer_right>ul{margin:0 auto;width:100%}}
+@media screen and (max-width:355px){.footer_right ul li a{padding:0 5px;}}
+/*@media screen and (max-width:540px){.footer_right>ul{margin-left:0;}}*/
+/*@media screen and (max-width:540px){.footer_right ul li{width:21%;margin-right:5px;margin-bottom:5px;line-height:15px;}}*/
+/*@media screen and (max-width:540px){.footer_right{width:80%;float:none;margin-left:0;text-align:center;}}*/
+/*@media screen and (max-width:540px){.footer_left{float:none;width:92%;margin:0 auto 10px;}}*/
+/*@media screen and (max-width:540px){.footer_main{width:99%;text-align:center;}}*/
+/*@media screen and (max-width:540px){.footer_right p{line-height:20px;}}*/
+/*/!*@media screen and (max-width:470px){.footer_right>ul{width:128%;}}*!/*/
+/*公有*/
+/*主题的头部*/
+/*.header{margin:10px 0;text-align:center;}*/
+/*.center_header,.center_main{width:100%;text-align:left;}*/
+/*.center_header>img,.center_header>span{margin-right:5px;}*/
+/*.center_header>span{margin-left:5px;}*/
+/*.center_header>button{width:100px;float:right;height:30px;border-radius:5px;line-height:30px;border:none;color:white;}*/
+/*.center_header>button a{color:white;}*/
+/*.center_header>.btnfirst{background:#2299CD;margin-right:10px;}*/
+/*.center_header>.btntwo{border:1px solid #ccc;}*/
+/*.center_header>.btntwo a {color:black;}*/
+/*.center_header>.btnfirst a{color:white;}*/
+/*.center_header>.btnfirst:active{background:white;}*/
+/*.center_header>.btntwo:active{background:#2299CD;}*/
+/*.center_header>.btntwo:active a{color:white;}*/
+/*.center_header>button:active{background:white;}*/
+/*.manimg>img{border-radius:50%;margin:5px 0;}*/
+    /*分页组件的适配*/
+    @media screen and (max-width:1200px){.page_footer>ul{width:50%}}
+    @media screen and (max-width:990px){.page_footer>ul{width:65%;margin:10px auto;}}
+    @media screen and (max-width:740px){.page_footer>ul{width:70%;margin:10px auto;}}
+    @media screen and (max-width:690px){.page_footer>ul{width:73%;margin:5px auto;}}
+    @media screen and (max-width:670px){.page_footer>ul{width:76%;}}
+    @media screen and (max-width:650px){.page_footer>ul{width:78%;}}
+    @media screen and (max-width:630px){.page_footer>ul{width:81%;}}
+    @media screen and (max-width:610px){.page_footer>ul{width:85%;}}
+    @media screen and (max-width:590px){.page_footer>ul{width:87%;}}
+    @media screen and (max-width:570px){.page_footer>ul{width:90%;}}
+    @media screen and (max-width:560px){.page_footer>ul{width:91%;}}
+    @media screen and (max-width:550px){.page_footer>ul{width:92%;}}
+    @media screen and (max-width:540px){.page_footer>ul{width:100%;}}
+    @media screen and (max-width:510px){.page_footer>ul{margin-left:5%;}}
+    @media screen and (max-width:510px){.page_footer>ul>.firstbtn{width:50px;}}
+    @media screen and (max-width:510px){.page_footer>ul>.lastbtn{width:50px;}}
+    @media screen and (max-width:450px){.page_footer>ul{width:81%;margin-left:11%;}}
+    @media screen and (max-width:420px){.page_footer>ul{width:100%;}}
+    @media screen and (max-width:420px){.page_footer>ul>li{margin:2px;width:30px;}}
+    @media screen and (max-width:400px){.page_footer>ul{margin-left:6%;}}
+    @media screen and (max-width:360px){.page_footer{padding-left:5px;}}
+    @media screen and (max-width:340px){.page_footer{padding-left:2px;}}

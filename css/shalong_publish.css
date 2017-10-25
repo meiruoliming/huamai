@@ -1,0 +1,20 @@
+.active{width:100%;overflow:hidden;}
+.active_left>div>span,.active_right>div>span{color:black;margin:20px 10px;font-weight:bold;}
+.active_left,.active_right{overflow:hidden;width:50%;float:left;margin:10px auto;}
+.active_left>div,.active_right>div{margin:2% 20%;}
+.active input{border:1px solid #ccc;margin-right:5px;}
+.active_right input{width:230px;}
+.time>input{width:60px;text-align:center;}
+.region>input{width:100px;}
+@media screen and (max-width:1200px){.active_left>div,.active_right>div{margin:2% 15%;}}
+@media screen and (max-width:990px){.active_left>div,.active_right>div{margin:2% 3%;}}
+@media screen and (max-width:760px){.active_left,.active_right{float:none;width:77%;}}
+@media screen and (max-width:760px){.center_main{padding:20px;}}
+@media screen and (max-width:540px){.active_left,.active_right{width:98%;}}
+@media screen and (max-width:540px){.center_main{padding:5px 0;}}
+@media screen and (max-width:430px){.center_header>button{margin-left:-5px;}}
+@media screen and (max-width:430px){.center_header{margin-top:10px;padding:0;}}
+@media screen and (max-width:400px){.center_header>button{width:42px;}}
+@media screen and (max-width:380px){.active_right>div>input{width:180px;}}
+@media screen and (max-width:340px){.region>input{width:90px;}}
+

@@ -1,0 +1,58 @@
+.manimg>img{border-radius:50%;margin:5px 0;}
+.center_main{backround:white;overflow:hidden;color:#ccc;}
+.conter{overflow:hidden;background:url("../images/chengyuanbg_02.png")no-repeat;background-size:cover;}
+.center_header{padding:10px 0;margin-top:10px;overflow:hidden;}
+.center_header,.center_main{width:100%;text-align:left;}
+.center_header>img,.center_header>span{margin-right:5px;}
+.center_header>span{margin-left:5px;}
+.center_header>button{width:100px;float:right;height:30px;border-radius:5px;line-height:30px;border:1px solid #ccc;}
+.center_header>button:active{background:white;color:#2299CD;}
+.btntwo{background:white;margin:0 10px;}
+.btnfirst{background:#2299CD;}
+.btnfirst>a{color:white;}
+.center_main{width:100%;margin:10px auto;padding:50px 20px;}
+.center_main h4 strong{font-weight:bold;}
+.center_main h4 {margin-bottom:10px;}
+.tjtp{width:100%;background:#F8F8FA;height:350px;position:relative;}
+.tishixinxi{position:absolute;top:40%;left:45%;text-align:center;}
+.textbox{width:100%color:#ACADAF;}
+.textbox h3{font-weight:700;border-top:1px solid #ccc;padding:10px 0;border-bottom:1px solid #ccc;}
+.textbox>ul{overflow:hidden;padding:10px 0 10px 0;border-bottom:1px solid #ccc;}
+.textarea{margin-top:20px;overflow:hidden;height:500px;}
+
+.textbox>ul li{width:27px;height:27px;margin-right:20px;}
+.textbox>ul li:nth-child(1){background:url("../images/textnav.png") 4px 0;}
+.textbox>ul li:nth-child(2){background:url("../images/textnav.png") -27px 0;}
+.textbox>ul li:nth-child(3){background:url("../images/textnav.png") -59px 0;}
+.textbox>ul li:nth-child(4){background:url("../images/textnav.png") -86px 0;}
+.textbox>ul li:nth-child(5){background:url("../images/textnav.png") -120px 0;}
+.textbox>ul li:nth-child(6){background:url("../images/textnav.png") -152px 0;}
+.textbox>ul li:nth-child(7){background:url("../images/textnav.png") -182px 0;}
+.textbox>ul li:nth-child(8){background:url("../images/textnav.png") -213px 0;}
+.textbox>ul li:nth-child(9){background:url("../images/textnav.png") -246px 0;}
+.textbox>ul li:nth-child(10){background:url("../images/textnav.png") -276px 0;}
+.footer{background:#1D487D;color:white;}
+.footer_main{width:80%;margin:2% auto;overflow:hidden;}
+@media screen and (max-width:1200px){.tjtp{height:310px;}}
+@media screen and (max-width:1200px){.textarea{height:400px;}}
+@media screen and (max-width:990px){.tjtp{height:280px;}}
+@media screen and (max-width:990px){.textarea{height:300px;}}
+@media screen and (max-width:990px){.center_header>button{width:80px;}}
+@media screen and (max-width:990px){.textbox>ul li{margin-right:14px;}}
+@media screen and (max-width:768px){.textarea{height:250px;}}
+@media screen and (max-width:768px){.center_header>button{width:70px;}}
+@media screen and (max-width:768px){.textbox>ul li{margin-right:4px;}}
+@media screen and (max-width:768px){h3{font-size:16px;}}
+@media screen and (max-width:768px){h4{font-size:15px;}}
+@media screen and (max-width:768px){.titp{height:200px;}}
+@media screen and (max-width:540px){.titp{height:180px;}}
+@media screen and (max-width:540px){.tishixinxi{left:36%;}}
+@media screen and (max-width:540px){.textbox>>h2{font-size:18px;}}
+@media screen and (max-width:540px){.center_main{padding:30px 0;}}
+@media screen and (max-width:540px){.center_header>img{width:18%;}}
+@media screen and (max-width:540px){.textbox>ul li{width:25px;}}
+@media screen and (max-width:540px){h3{font-size:14px;}}
+@media screen and (max-width:540px){h4{font-size:13px;}}
+/*button°´Å¥*/
+@media screen and (max-width:540px){.center_header>button{width:50px;height:30px;}}
+@media screen and (max-width:540px){.btntwo{background:white;margin:0 5px;}}

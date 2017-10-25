@@ -1,0 +1,9 @@
+.center_main{overflow:hidden;}
+.main_left{height:670px;}
+.table>tbody>tr>th{background:#5C85BB;text-align:center;color:white;}
+.btn>button{width:80px;height:40px;background:#1B497D;color:white;border:none;}
+.allbtn{margin-right:4%;}
+.allbtn,.removebtn{border:1px solid none;}
+@media screen and (max-width:768px){.main_left{height:30px;}}
+@media screen and (max-width:768px){.main_right{width:100%}}
+@media screen and (max-width:768px){.btn{width:100%;}}

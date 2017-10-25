@@ -1,0 +1,32 @@
+.show_time{overflow:hidden;margin-bottom:20px;}
+.time_left,.time_right{overflow:hidden;width:40%;float:left;}
+.time_left{margin-left:10%;}
+.tjtp{position:relative;}
+.tp{text-align:center; position:absolute;margin:13% 45%;width:100px;}
+.tp>div{width:30px;height:30px;background:#ccc;margin: auto;position:relative;}
+.tp>div>p{width:0;height:0;border-top:5px solid transparent;border-left:10px solid white;border-bottom:5px solid transparent;margin:auto;position:absolute;top:0;left:0;bottom:0;right:0;}
+.time_left>span,.time_right>span{font-weight:700;color:black;margin-right:10px;}
+.show_time input{height:30px;border:1px solid #ccc;}
+.time_left>input{width:80px;margin-right:3px;}
+.time_right>input{width:200px;}
+@media screen and (max-width:990px){.time_left{margin:0;}}
+@media screen and (max-width:990px){.time_left,.time_right{width:49%;}}
+@media screen and (max-width:990px){.tp{margin:15% 45%;}}
+@media screen and (max-width:768px){.center_main {padding:10px;}}
+@media screen and (max-width:768px){.tp{margin:20% 45%;}}
+@media screen and (max-width:754px){.time_left>input{width:70px;}}
+@media screen and (max-width:694px){.time_left>input{width:63px;}}
+@media screen and (max-width:650px){.time_left, .time_right{width:100%;float:none;}}
+@media screen and (max-width:650px){.time_left{margin-bottom:10px;}}
+@media screen and (max-width:650px){.center_header>button{width:80px;}}
+@media screen and (max-width:650px){.show_time{margin-bottom:10px;}}
+@media screen and (max-width:580px){.tp{margin:22% 45%;}}
+@media screen and (max-width:570px){.center_header>button{width:60px;}}
+@media screen and (max-width:540px){.center_main {padding:0;}}
+@media screen and (max-width:480px){.tp{margin:26% 45%;}}
+@media screen and (max-width:470px){.center_header>button{margin-right:0}}
+@media screen and (max-width:470px){.center_header>.btnfirst{margin-right:0}}
+@media screen and (max-width:450px){.tp{margin:30% 38%;}}
+@media screen and (max-width:420px){.center_header>button{width:45px;}  }
+@media screen and (max-width:400px){.tp{margin:37% 35%;}}
+

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>职位发布</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script type="text/javascript"  src="js/jquery-2.1.3.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/common.css"  rel="stylesheet"/>
+    <link href="css/article_publish.css"  rel="stylesheet"/>
+    <link href="css/talent.css" rel="stylesheet">
+    <link href="css/talent_job.css" rel="stylesheet"/>
+    <link href="css/base.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--导航栏-->
+<nav class="nav navbar-default navbtn" role="navigation">
+    <div class="navbar-header">
+        <img src="images/logo.png" class="navbar-brand">
+        <button class="navbar-toggle menubn" data-toggle="collapse" data-target="#menu">
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse" id="menu" >
+        <ul class="nav navbar-nav navbn">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="members.html">成员</a></li>
+            <li><a href="article.html">文章</a></li>
+            <li><a href="case.html">案源</a></li>
+            <li><a href="salong.html">沙龙</a></li>
+            <li><a href="talent.html">人员</a></li>
+            <li><a href="school.html">法学院</a></li>
+            <li><a href=" forum.html">论坛</a></li>
+            <li class="manimg"><img src="images/man_03.png"></li>
+            <li><a href="#">中&nbsp;|&nbsp;en</a></li>
+        </ul>
+    </div>
+</nav>
+<!--banner-->
+<div class="banner">
+    <img src="images/shalong_02.png" class="img-responsive">
+</div>
+<!--中间内容-->
+<div class="conter conter-fulid">
+    <div class="center container">
+        <div class="center_header">
+            <img src="images/chengyuanlogo_03.png"><a href="index.html">首页</a><span>></span><span><a href="article.html">文章</a></span>
+            <button type="button" class="btntwo"><a href="#">预览</a></button>
+            <button type="button" class="btntwo"><a href="#">发布</a></button>
+            <button type="button" class="btnfirst"><a href="article_detial.html">保存</a></button>
+        </div>
+        <div class="center_main">
+            <div class="main_left">
+                <ul class="jilinav">
+                    <li ><a href="talent_resume.html" class="firstli">找&nbsp;简&nbsp;历</a></li>
+                    <li><a href="talent_job.html">找&nbsp;职&nbsp;位</a></li>
+                    <li><a href="job_manage.html">职位管理</a></li>
+                    <li><a href="resume_manage.html">简历管理</a></li>
+                </ul>
+            </div>
+            <div class="main_right">
+               <form action="" method="get">
+                   <div class="zhiwei">
+                       <span class="xinghao">*</span>职位名称：<input type="text" placeholder="如：人力总监" value=""><span class="text">注：职位发布后职位名称不可以修改</span>
+                   </div>
+                 <div class="area">
+                     <span class="xinghao">*</span>工作地区：<select>
+                     <option value="" selected disabled>北京_海淀区</option>
+                     <option value="">北京_朝阳区</option>
+                     <option value="">上海</option></select>
+                     <input  type="text" placeholder="请填写街道、楼宇详细地址" value=""/><br/><span class="text">注：1.职位发布后省/市/区不可以修改。2.填写街道、楼宇详细地址、有利于职位曝光。</span>
+                 </div>
+                  <div class="zhiwei"><span class="xinghao">*</span>职位分类：<input type="text" placeholder="请输入或选择智能" value=""></div>
+                  <div class="bumen"><span class="xinghao">*</span>所属部门：
+                      <select>
+                          <option value="" selected disabled>请选择</option>
+                          <option value="">技术部</option>
+                          <option value="">销售部</option>
+                          <option value="">运营部</option>
+                     </select>
+                      <button type="button"><a href="#">部门管理</a></button>
+                  </div>
+                   <div class="money">
+                       <span class="xinghao">*</span>职位月薪：
+                       <input type="text" value="" class="moneybox"><span class="cltext">千元</span>至
+                       <input type="text" value="" class="moneybox"><span class="cltext">千元</span>&nbsp;&nbsp;
+                       <input type="checkbox" value="" name="mianyi" class="mianyi">显示为面议
+                       <span class="text">月薪上限为10k以上的职位,不能勾选“显示为面议”</span>
+                   </div>
+                   <script>
+                       num=$(".moneybox").val();
+                       if(num>=10){
+                           $(".mianyi").click(function(){
+                               alert("1")
+                               return false;
+                           })
+                       }
+                   </script>
+                   <div><span class="xinghao">*</span>工作年限：
+                       <input type="text" value="" class="year"/>年以上
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" value="">不限</div>
+                   <div class="dg"><span class="xinghao">*</span>学历要求：
+                       <select class="xl">
+                           <option value="" selected disabled>请选择</option>
+                           <option value="">本科</option>
+                           <option value="">研究生</option>
+                           <option value="">博士</option>
+                      </select>及以上&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       是否全日制统招：<input type="radio" value="yes" >是 <input type="radio" value="no" >不是
+                   </div>
+                   <div class="xueli">
+                       <p><span class="xinghao">*</span>职位描述：</p>
+                       <textarea cols="80" rows="8" placeholder="职责描述" class="zhize"></textarea>
+                       <textarea cols="80" rows="8" placeholder="任职要求" class="renzhi"></textarea>
+                   </div>
+               </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部-->
+<div class="footer container-fluid">
+    <div class="footer_main">
+        <div class="footer_left img-responsive">
+            <img src="images/footer_07.png " class="img-responsive">
+        </div>
+        <div class="footer_right">
+            <ul style="padding:0">
+                <li class=" " ><a href="#" class="firsta">返回首页</a></li>
+                <li class=" "><a href="#">关于华麦</a></li>
+                <li class=" " ><a href="#">联系我们</a></li>
+                <li class=" " ><a href="#" class="lasta">论坛</a></li>
+            </ul>
+            <p>地址：北京东城区北京东城区北京东城区</p>
+            <p>Copyright&copy;华麦网&nbsp;京icp备11111111</p>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/talent_job.js"></script>
+</html>

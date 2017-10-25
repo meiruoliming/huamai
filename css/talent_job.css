@@ -1,0 +1,53 @@
+.center_main{overflow:hidden;;height:875px;background:white;}
+/*.main_left{height:700px;}*/
+.main_right{color:black;padding:50px 0 0 20px;}
+.btnfirst{background:#2398CD;}
+.btnfirst a{color:white;}
+.xinghao{color:#F48A96;}
+form>div{margin:5px 0;}
+form>div>textarea,form>div>select,form>div>input{margin-left:10px;border:1px solid #ccc;}
+.area>input,.area>select,.zhiwei>input,.bumen>input,.bumen>select{height:35px;}
+.text{margin-left:10px;color:#B0B8C5;}
+.zhiwei>input{width:300px;}
+.area>select,area>input{width:200px}
+.area>select{margin-right:0;}
+.area>.text{margin-left:85px;}
+.bumen>select{width:200px;}
+.bumen>button{width:100px;border:none;border-radius:5px;height:35px;background:#2199CB;}
+.bumen>button>a{color:white;}
+.bumen>button:active{background:white}
+.bumen>button:active a{color:#2199CB;}
+.money>.cltext{color:#F2AD76;}
+.moneybox,.year{width:50px}
+.dg>select{width:80px;height:35px;}
+/*.checkbox{width:10px;height:10px;;border:1px solid #ccc;}*/
+.xueli>p{width:80px;float:left;}
+.zhize{border-bottom:0;}
+.renzhi{margin:-7px 0 0 90px;border-top:none;}
+@media screen and (max-width:990px){.center_main{padding:30px 20px;}
+@media screen and (max-width:990px){.text{display:inline-flex;margin-left:85px;}}
+@media screen and (max-width:990px){.main_right{padding:30px 0 0 15px;}}
+@media screen and (max-width:990px){textarea{width:80%;}}}
+@media screen and (max-width:990px){.center_main{height:828px}}
+@media screen and (max-width:768px){.center_main{padding:10px;}}
+@media screen and (max-width:768px){.main_right{padding:15px 0 0 0;}}
+
+@media screen and (max-width:710px){.center_main{height:850px}}
+@media screen and (max-width:570px){.area>select,.area>input{width:180px;}}
+@media screen and (max-width:555px){.area>select,.area>input{float:none;}}
+@media screen and (max-width:555px){.area>input{margin-left:85px;margin-top:10px;}}
+@media screen and (max-width:555px){textarea{width:77%;}}
+@media screen and (max-width:555px){.center_main{height:894px}}
+@media screen and (max-width:540px){.center_main{height:928px}}
+@media screen and (max-width:500px){.bumen>select{width:150px;}}
+@media screen and (max-width:480px){textarea{width:75%;}}
+@media screen and (max-width:480px){.center_main{height:1028px;overflow:hidden;}}
+@media screen and (max-width:480px){.bumen>button{width:80px;}}
+@media screen and (max-width:480px){.zhiwei>input{width:200px;}}
+@media screen and (max-width:460px){textarea{width:70%;}}
+@media screen and (max-width:460px){.center_main{height:991px;}}
+@media screen and (max-width:415px){.bumen>select{width:130px;}}
+@media screen and (max-width:380px){.bumen>select{width:100px;}}
+@media screen and (max-width:380px){.center_main{height:1002px;}}
+@media screen and (max-width:380px){.zhiwei>input{width:170px;}}
+@media screen and (max-width:380px){textarea{width:67%;}}

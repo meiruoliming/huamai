@@ -1,0 +1,22 @@
+.sl_header>dl>dd>h4{color:#5B8EB9;}
+.zhujiangren{font-size:18px;}
+.sl_header dl>dt{width:28%;}
+.firstdd{margin:38px 0 10px 0;}
+.sl_header dl{overflow:hidden;backgrund:pink}
+@media screen and (max-width:990px){.sl_header>dl>dt{margin-top:0;}}
+@media screen and (max-width:990px){.firstdd{margin:18px 0 5px 0;}}
+@media screen and (max-width:990px){.zhujiangren{font-size:16px;}}
+@media screen and (max-width:990px){.shalong_main{padding:0 20px;}}
+@media screen and (max-width:990px){.sl_header dl>dd{width:98%;}}
+@media screen and (max-width:670px){.sl_header dl>dd{line-height:22px;}}
+@media screen and (max-width:670px){.zhujiangren{font-size:14px;}}
+@media screen and (max-width:670px){.shalong_main{padding:0 10px;}}
+@media screen and (max-width:670px){h4{font-size:16px;}}
+@media screen and (max-width:680px){.sl_header>dl>dt{margin-top:3%;}}
+@media screen and (max-width:600px){.sl_header>dl>dt{margin-top:4%;}}
+@media screen and (max-width:560px){.sl_header>dl>dt{margin-top:5%;}}
+@media screen and (max-width:560px){.sl_header dl>dd{line-height:22px;font-size:12px;margin-right:0;}}
+@media screen and (max-width:540px){.shalong_main{padding:0;}}
+@media screen and (max-width:490px){h4{font-size:15px;}}
+@media screen and (max-width:490px){.sl_header dl>dd{font-size:12px;line-height:17px;}}
+@media screen and (max-width:450px){h4{font-size:14px;}}

@@ -1,0 +1,18 @@
+.main_right{overflow:hidden;padding:0 30px 0 50px;}
+.main_header{width:100%;float:right;margin:10px 0;}
+.main_header>ul{float:right;overflow:hidden;}
+.main_header>ul .lastli{margin-right:0;}
+.main_header>ul li{margin-right:10px;}
+.zhangmo{overlow:hidden;}
+.zhangmo>dl>dt{float:right;}
+.zhangmo>dl>dd{line-height:34px;}
+.education,.jobs,.money{margin:30px 0 60px 0;}
+.education>p,.jobs>p,.money>p{line-height:30px;}
+@media screen and (max-width:990px){.main_right{padding:0 20px;}}
+@media screen and (max-width:768px){.main_right{padding:0 10px;}}
+@media screen and (max-width:768px){.education, .jobs, .money{margin:25px 0 30px 0;}}
+@media screen and (max-width:768px){.education>p, .jobs>p, .money>p{line-height:25px;}}
+@media screen and (max-width:540px){.main_right{padding:0;}}
+@media screen and (max-width:540px){.education, .jobs, .money{margin:20px 0;}}
+@media screen and (max-width:540px){.education>p, .jobs>p, .money>p{line-height:20px;}}
+@media screen and (max-width:540px){.zhangmo>dl>dd{line-height:28px;}}

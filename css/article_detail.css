@@ -1,0 +1,132 @@
+ul li{list-style:none;float:left;}
+html{font-size:100%;}
+.manimg>img{border-radius:50%;margin:5px 0;}
+.conter{overflow:hidden;background:url("../images/chengyuanbg_02.png")no-repeat;background-size:cover;}
+.center_header{padding:10px 0;background:white;margin-top:10px;overflow:hidden;}
+.center_header,.center_main{width:100%;text-align:left;}
+.center_header>img,.center_header>span{margin-right:5px;}
+.center_header>span{margin-left:5px;}
+.center_header>button{width:100px;float:right;height:30px;background:#2299CD;border-radius:5px;line-height:30px;border:none;color:white;}
+.center_header>button:active{background:white;color:#2299CD;margin-top:10px;}
+.center_main{width:100%;margin:10px auto;background:white;overflow:hidden;}
+/*独有的内容*/
+.main_left{width:79%;margin-right:10px;float:left;padding:50px;overflow:hidden;}
+.fbt{overflow:hidden;margin:10px 0 10px 0;}
+.fbt>p{color:#4C7BBB;float:left;width:50%;}
+.fbt>ul {width:50%;float:left;}
+.fbt>ul li{margin-right:20px;float:right;margin-left:10px;}
+/*.fbt>ul li:last-child{margin-right:0;}*/
+.centertext>img{margin:0 10%;width:80%;}
+.centertext>p{line-height:30px;font-size:14px;}
+/*右面的*/
+.main_right{width:20%;float:left;overflow:hidden;}
+.right_shang{position:relative;}
+.right_shang>a>img{text-align:center;border-radius:50%;margin-top:26%;margin-left:26%;}
+.right_shang>p{margin:25px 0;text-align:center;}
+.btn>button{width:80px;border-radius:4px;height:25px;margin:0 5%;background:#2299CC;border:none;}
+.btn>.firstbtn{background:white;color:black;}
+.btn>.twobtn{background:#2299CC;}
+.btn>.twobtn a{color:white;}
+.btn>.firstbtn:active{background:#2299CC;color:white;}
+.btn>.twobtn:active{background:white;color:black;}
+.right_xia{color:#778F9B;}
+.xia_header{width:80%;margin:0 auto;}
+.xia_header>p{border-top:2px solid #ccc;}
+.xia_header>p>strong{border-top:2px solid black;}
+.xia_main:hover .xia_header>p>strong{transform:translateX(100px)}
+.xia_main>ul li{list-style:disc ;float:none;width:85%;margin-bottom:10px;}
+.pages{float:right;margin:20px auto 30px;}
+/*分页*/
+.pages{float:right;margin:20px auto 30px;}
+.page_footer{overflow:hidden;margin:0 auto 10px;}
+.page_footer>ul{width:40%;margin:20px auto;overflow:hidden;}
+.page_footer>ul>.firstbtn,.page_footer>ul>.lastbtn{width:80px;}
+.page_footer>ul>li{width:40px;height:40px;border:1px solid #ccc;line-height:40px;text-align:center;margin:0 5px;}
+.page_footer>ul>li>a{color:#337ab7}
+@media screen and (max-width:1200px){.page_footer>ul{width:50%}}
+@media screen and (max-width:990px){.page_footer>ul{width:65%;margin:10px auto;}}
+@media screen and (max-width:710px){.page_footer>ul{width:68%;margin:10px auto;}}
+@media screen and (max-width:680px){.page_footer>ul{width:70%;margin:5px auto;}}
+@media screen and (max-width:670px){.page_footer>ul{width:72%;}}
+@media screen and (max-width:630px){.page_footer>ul{width:79%;}}
+@media screen and (max-width:590px){.page_footer>ul{width:83%;}}
+@media screen and (max-width:570px){.page_footer>ul{width:85%;}}
+@media screen and (max-width:550px){.page_footer>ul{width:87%;}}
+@media screen and (max-width:550px){.page_footer>ul{width:87%;}}
+@media screen and (max-width:540px){.page_footer>ul{width:91%;}}
+@media screen and (max-width:520px){.page_footer>ul{width:93%;}}
+@media screen and (max-width:510px){.page_footer>ul{width:94%;}}
+@media screen and (max-width:473px){.page_footer>ul>.firstbtn{width:50px;}}
+@media screen and (max-width:473px){.page_footer>ul>.lastbtn{width:50px;}}
+@media screen and (max-width:473px){.page_footer>ul{width:81%;}}
+@media screen and (max-width:473px){.page_footer>ul>li{margin:2px;width:30px;}}
+
+.footer{background:#1D487D;color:white;}
+.footer_main{width:80%;margin:2% auto;overflow:hidden;}
+.footer_left,.footer_right{display:inline-block;float:left;width:50%;margin:0 auto;}
+.footer_left>img{float:right;margin-right:24%;margin-top:20px;}
+.footer_right{float:left;text-align:left;}
+.footer_right ul{overflow:hidden;}
+.footer_right ul li{width:24%;float:left;list-style:none;}
+.footer_right ul li:last-child{border-right:none;}
+.footer_right ul li a{color:white;}
+h2{margin-bottom:25px;}
+@media screen and (max-width:1200px){.main_right{width:22%;}}
+@media screen and (max-width:1200px){.main_left{width:76%;}}
+@media screen and (max-width:1200px){h2{font-size:26px;margin-bottom:25px;}}
+@media screen and (max-width:1200px){.fbt>ul li{margin-right:17px;}}
+@media screen and (max-width:1200px){.centertext>p{font-size:14px;}}
+
+@media screen and (max-width:990px){.main_right{width:28%;}}
+@media screen and (max-width:990px){.btn>button{width:65px;}}
+@media screen and (max-width:990px){.fbt>ul{width:44%;}}
+@media screen and (max-width:990px){h3{font-size:19px;}}
+@media screen and (max-width:990px){.btn>img{margin:22% 0 0 22%;}}
+@media screen and (max-width:990px){.main_left{width:70%;padding:20px;}}
+@media screen and (max-width:990px){h2{font-size:16px;margin-bottom:23px;}}
+@media screen and (max-width:990px){.fbt>ul{padding:0;}}
+@media screen and (max-width:990px){.fbt>ul li {margin-right:-10px;}}
+@media screen and (max-width:990px){.centertext>p{font-size:14px;}}
+
+@media screen and (max-width:768px){.main_left{float:none;width:98%;}}
+@media screen and (max-width:768px){.main_right{float:none;width:98%;}}
+@media screen and (max-width:768px){.right_shang{width:98%;float:left}}
+@media screen and (max-width:768px){.right_xia{width:98%;float:left;text-align:center;}}
+@media screen and (max-width:768px){.right_shang>a>img{margin:10px 25px 10px 170px;width:15%;float:left;overflow:hidden;}}
+@media screen and (max-width:768px){.right_shang>p{width:25%;float:left;font-size:15px;}}
+@media screen and (max-width:768px){.btn{margin:73px -176px 0;}}
+@media screen and (max-width:768px){.xia_header>p{text-align:left;}}
+@media screen and (max-width:768px){.xia_main>ul li{width:100%;}}
+@media screen and (max-width:768px){.btn{margin-top:65px}}
+@media screen and (max-width:680px){.btn{margin-left:-170px}}
+@media screen and (max-width:768px){.xia_header{width:95%;margin:0 auto;}}
+@media screen and (max-width:768px){.right_shang>a>img{margin:10px 25px 10px 160px}
+@media screen and (max-width:650px){.btn{margin-top:10%;margin-left:-150px}}
+@media screen and (max-width:650px){.right_shang>a>img{margin-left:150px}}
+@media screen and (max-width:600px){.right_shang>a>img{margin-left:135px}}
+@media screen and (max-width:560px){.right_shang>a>img{margin-left:130px}}
+@media screen and (max-width:540px){.xia_main>ul li{font-size:12px;text-align:left;width:96%;margin:0 auto;}}
+@media screen and (max-width:520px){.right_shang>a>img{margin-left:106px;margin-right:36px;}}
+@media screen and (max-width:500px){.right_shang>a>img{margin-left:106px;margin-right:36px;}}
+@media screen and (max-width:500px){.right_shang>p{margin:20px 0;}}
+@media screen and (max-width:480px){.right_shang>a>img{margin-left:100px;margin-right:46px;}}
+@media screen and (max-width:460px){.right_shang>a>img{margin-left:92px;margin-right:48px;}}
+@media screen and (max-width:440px){.right_shang>a>img{margin-left:60px;margin-right:66px;}}
+@media screen and (max-width:450px){.right_shang>p{margin:10px 0;}}
+
+@media screen and (max-width:530px){.fbt>ul{width:45%;}}
+@media screen and (max-width:510px){.fbt>p{width:100%;}}
+@media screen and (max-width:510px){.fbt>ul{width:100%;}}
+@media screen and (max-width:510px){.fbt>ul>li{margin-right:6px;}}
+
+/*@media screen and (max-width:705px){.fbt>ul li {margin-right:-11px;}}*/
+/*@media screen and (max-width:705px){.fbt>ul{width:97%;}}*/
+/*@media screen and (max-width:680px){.main_right{width:33%;}}*/
+/*@media screen and (max-width:990px){.btn>button{width:65px;}}*/
+/*@media screen and (max-width:680px){.right_shang>img{margin:20% 0 0 1%;}}*/
+/*@media screen and (max-width:680px){.main_left{width:64%;padding:10px 0;}}*/
+/*@media screen and (max-width:680px){h2{font-size:14px;margin-bottom:15px;margin-top:0}}*/
+/*@media screen and (max-width:680px){.fbt>ul{padding:0;}}*/
+/*@media screen and (max-width:680px){.fbt>ul li {margin-right:-10px;}}*/
+/*@media screen and (max-width:680px){.centertext>p{font-size:12px;}}*/
+/*                                                                                     */

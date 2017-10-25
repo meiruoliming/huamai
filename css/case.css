@@ -1,0 +1,50 @@
+.navbar-nav{float:right;}
+.center_main{overflow:hidden;padding:35px 100px;background:url("../images/chengyuanbg_02.png") no-repeat;float:left;background:100%;}
+.center_header{padding:30px 0 0 0;}
+.main_header ul{overflow:hidden;}
+.search{overflow:hidden;margin-bottom:40px;}
+input{-webkit-appearance: none; -moz-appearance: none; -o-appearance: none; appearance: none;}
+.scinput{height:30px;border:1px solid #ccc;border-right:none;width:80%;;float:left;}
+.su{width:30px;height:30px;background:url("../images/sosuo.png") no-repeat center center;float:left;border:1px solid #ccc;border-left:none;}
+.search a{width:100px;height:30px;line-height:30px;text-align:center;border-radius:5px;background:#2299CD;color:white;float:right;}
+.anyuan_main{margin:50px 0;}
+.anyuan_main>table .tr_header{background:#5C86BB;}
+.anyuan_main>table .tr_header th{text-align:center;color:white;}
+.anyuan_main>table tr td{text-align:center;}
+.anyuan_main>table tr td a{color:black;}
+.anyuan_main>table tr:hover {background:#D0D0D0;cursor: pointer;}
+.anyuan_main>table tr:hover a{text-decoration-line:none;}
+@media screen and (max-width:990px){.scinput{width:60%;}}
+@media screen and (max-width:768px){.search>a{width:80px;}}
+@media screen and (max-width:768px){.center_main{padding:20px 30px;}}
+@media screen and (max-width:768px){.center_header>button{width:80px;}}
+@media screen and (max-width:768px){.anyuan_main{margin:30px 0;}}
+@media screen and (max-width:768px){.search{margin-bottom:10px;}}
+@media screen and (max-width:540px){.anyuan_main{margin:20px 0;}}
+@media screen and (max-width:540px){.center_main{padding:20px 15px;}}
+@media screen and (max-width:640px){.search>a{width:50px;}}
+/*·ÖÒ³*/
+.pages{float:right;margin:20px auto 30px;}
+.page_footer{overflow:hidden;margin:0 auto 10px;}
+.page_footer>ul{width:40%;margin:20px auto;overflow:hidden;}
+.page_footer>ul>.firstbtn,.page_footer>ul>.lastbtn{width:80px;}
+.page_footer>ul>li{width:40px;height:40px;border:1px solid #ccc;line-height:40px;text-align:center;margin:0 5px;}
+.page_footer>ul li a{color:#2299CC;}
+@media screen and (max-width:1200px){.page_footer>ul{width:50%}}
+@media screen and (max-width:990px){.page_footer>ul{width:65%;margin:10px auto;}}
+@media screen and (max-width:710px){.page_footer>ul{width:68%;margin:10px auto;}}
+@media screen and (max-width:680px){.page_footer>ul{width:70%;margin:5px auto;}}
+@media screen and (max-width:670px){.page_footer>ul{width:72%;}}
+@media screen and (max-width:630px){.page_footer>ul{width:79%;}}
+@media screen and (max-width:590px){.page_footer>ul{width:83%;}}
+@media screen and (max-width:570px){.page_footer>ul{width:85%;}}
+@media screen and (max-width:550px){.page_footer>ul{width:87%;}}
+@media screen and (max-width:550px){.page_footer>ul{width:87%;}}
+@media screen and (max-width:540px){.page_footer>ul{width:91%;}}
+@media screen and (max-width:520px){.page_footer>ul{width:93%;}}
+@media screen and (max-width:510px){.page_footer>ul{width:98%;}}
+@media screen and (max-width:490px){.page_footer>ul{width:101%;}}
+@media screen and (max-width:473px){.page_footer>ul>.firstbtn{width:50px;}}
+@media screen and (max-width:473px){.page_footer>ul>.lastbtn{width:50px;}}
+@media screen and (max-width:473px){.page_footer>ul{width:81%;}}
+@media screen and (max-width:473px){.page_footer>ul>li{margin:2px;width:30px;}}
